@@ -33,11 +33,13 @@
         (a href="") test (/a)
     """
     from bs4 import BeautifulSoup
-    sp = BeautifulSoup(html_doc,"html5lib")
+    sp = BeautifulSoup(html_doc,"html.parser")
+
+    # html5lib = html.parser
   </code>
   </pre></li> 
 
-
+  <li>複制上傳至GitHub擷取</li>
 
   <li>網站擷取
   <pre>
@@ -49,22 +51,13 @@
   </code>
   </pre></li> 
 
+
+
 </ul>    
 
   <li>
   <p><strong>相關程式碼</strong></p>
   <ul>
-  <li>擷取超連結文字及網址
-  <pre>
-  <code>
-    fd = sp.find_all('a')  
-    for i in fd:  
-    print(i.string)   #輸出超連結文字 
-    print(i.get('href'))  #輸出超連結網址 
-  </code>
-  </pre></li> 
-
-
 
   <li>class替換方式
   <pre>
@@ -75,6 +68,17 @@
     ('h4', {'class': 'card-title'})
   </code>
   </pre></li> 
+
+  <li>擷取超連結文字及網址
+  <pre>
+  <code>
+    fd = sp.find_all('a')  
+    for i in fd:  
+    print(i.string)   #輸出超連結文字 
+    print(i.get('href'))  #輸出超連結網址 
+  </code>
+  </pre></li> 
+
 
 
 
@@ -114,7 +118,7 @@
 </tr>
 <tr>
   <td>.text</td>
-  <td>傳回去除所有HTML標籤後的網頁文字內容</td>
+  <td>傳回去除所有HTML標籤，把網頁變為字串傳回</td>
 </tr>  
 
 <tr>

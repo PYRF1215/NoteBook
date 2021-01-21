@@ -69,7 +69,17 @@ Authentication Succeeded 重新認證即可.
 
 # <h2>●無法推送異常處理</h2>
 <pre><code>
-error msg : 
+error msg : 手動github易產生此錯誤
+
+error: failed to push some refs to 'https://github.com/PYRF1215/NoteBook.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+code :
 
 git fetch origin master
 git merge origin master

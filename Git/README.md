@@ -1,5 +1,5 @@
 # <h2>●Git 版本管理</h2>
-[![Git 版本管理](https://github.com/PYRF1215/Classification/blob/master/Git/images/%E9%A6%96%E9%A0%81.png)](https://www.youtube.com/watch?v=NugoF40e6Dk)    
+[![Git 版本管理](https://github.com/PYRF1215/NoteBook/tree/master/Git)](https://www.youtube.com/watch?v=NugoF40e6Dk)    
 
 
 

@@ -18,14 +18,10 @@
   </ul>
   </li>
 
-
-
-
-  
   <li>
   <p><strong>擷取方式</strong></p>
   <ul>
-  
+  <li>複制上傳至GitHub擷取</li>
   <li>本地端 
   <pre>
   <code>
@@ -36,10 +32,7 @@
     sp = BeautifulSoup(html_doc,"html.parser")
 
     # html5lib = html.parser
-  </code>
-  </pre></li> 
-
-  <li>複制上傳至GitHub擷取</li>
+  </code></pre></li> 
 
   <li>網站擷取
   <pre>
@@ -48,8 +41,7 @@
     import requests
     html = requests.get('url').text
     sp = BeautifulSoup(html, 'html.parser')
-  </code>
-  </pre></li> 
+  </code></pre></li> 
 
 
 

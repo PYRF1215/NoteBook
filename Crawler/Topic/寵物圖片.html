@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <h3>◆ TOPIC：寵物圖片</h3><br>
+        
+    <h6>#Data Source</h6>
+    <img src="../images/img.png" width=800px>
+    
+    <h6>#Source Code</h6>
+        <textarea cols="105" rows="18" readonly>
+    import requests
+    import re
+    from bs4 import BeautifulSoup
+    
+    def main():
+        resp = requests.get('https://www.hapet.com.tw/product/145544')
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        
+    
+        # 找出所有 .png 結尾的圖片
+        imgs = soup.find_all('img')
+        for img in imgs:
+            if 'src' in img.attrs:
+                if img['src'].endswith('-1067x800.jpg'):
+                    print(img['src'])
+                    
+    
+    if __name__ == '__main__':
+        main()
+    
+        </textarea>
+    
+    <h6>#Output</h6>
+        <textarea cols="105" rows="15" readonly>
+    
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_111517-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095129-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095132-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095138-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095234-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095055-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095218-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_110426-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095242-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095849-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095910-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095927-1067x800.jpg
+    https://mk0haochonghapetpekk.kinstacdn.com/wp-content/uploads/2020/01/20200103_095524-1067x800.jpg
+        </textarea><br><br>
+    
+    <h3>圖片超連結 (請滑鼠右鍵用"在新分頁中開啟連結T"開啟)… … … 
+    <a href="https://ychsu711215.000webhostapp.com/Web/images/20201117/"> link here</a></h3> 
+   
+
+</body>
+</html>

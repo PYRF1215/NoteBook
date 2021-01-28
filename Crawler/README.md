@@ -5,16 +5,14 @@
   <li>
   <p><strong>爬蟲主題</strong></p>
   <ul>
-  <li><a href="https://github.com/PYRF1215/NoteBook/tree/master/Crawler/Topic" rel="nofollow"></a>Topic</li>       
+  <li><a href="https://github.com/PYRF1215/NoteBook/tree/master/Crawler/Topic" rel="nofollow">Topic</a></li>       
   </ul>
   </li>
-  
   
   <li>
   <p><strong>參考資料</strong></p>
   <ul>
-  <li><a href="https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web/HTML_basics" rel="nofollow">HTML 基礎</a></li>       
-  <li><a href="">HTML 常用語法</a></li>
+  <li><a href="">HTML Basic</a></li>
   </ul>
   </li>
 
@@ -107,15 +105,18 @@
 <tr>
 <th>指令</th>
 <th>說明</th>
+<th>Remark</th>
 </tr>
 <tr>
   <td>.text</td>
-  <td>傳回去除所有HTML標籤，把網頁變為字串傳回</td>
+  <td>去除所有HTML標籤，把網頁變為字串傳回</td>
+  <td></td>
 </tr>  
 
 <tr>
   <td>.prettify()</td>
   <td>HTML自動縮排</td>
+  <td></td>
 </tr>
 
 
@@ -123,28 +124,48 @@
 <tr>
   <td>strip()</td>
   <td>去字串頭尾空格</td>
+  <td></td>
 </tr>
 
 <tr>
   <td>\n</td>
   <td>換行</td>
+  <td></td>
 </tr>
 
 <tr>
   <td>print(sp.title)</td>
-  <td>列印標題</td>
+  <td>傳回此網頁的標題</td>
+  <td></td>
 </tr>
 
 <tr>
   <td>.status_code</td>
   <td>查詢狀態碼   200成功   404 失敗(找不到)</td>
+  <td></td>
 </tr> 
 
 
 <tr>
   <td>print(sp.title.string)</td>
   <td></td>
+  <td></td>
 </tr> 
+
+
+<tr>
+  <td>find_all</td>
+  <td>傳回所有符合條件的內容</td>
+  <td>sp.find_all('a')</td>
+</tr>
+
+<tr>
+  <td>select</td>
+  <td>傳回以CSS選擇器做為運算結果的所有內容，主要操作對象為id和class</td>
+  <td>sp.select('#Showtd')</td>
+
+</tr>
+
 
 </tbody>
 </table>

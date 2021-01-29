@@ -5,7 +5,7 @@
   <li>
   <p><strong>爬蟲主題</strong></p>
   <ul>
-  <li><a href="https://github.com/PYRF1215/NoteBook/tree/master/HTML" rel="nofollow">Topic</a></li>       
+  <li><a href="https://github.com/PYRF1215/NoteBook/tree/master/Crawler/Topic" rel="nofollow">Topic</a></li>       
   </ul>
   </li>
   
@@ -56,8 +56,8 @@
   <code>
     sp.find_all
     ('h4', 'card-title') = 
-    ('h4', class_='card-title') = 
-    ('h4', {'class': 'card-title'})
+    ('h4', class_='card-title')
+    ('h4', {'class': 'card-title'}) # 很多類別時可用
   </code>
   </pre></li> 
 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 讓手機瀏覽器不要對網頁做任意的縮放  縮放尺度設定1倍,最大縮放尺度1倍-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>回應式設計RWD</title>
+    <style type="text/css">
+    .head{
+        background-color: #003344;color:white;font-weight:bold;font-size:30px;
+        text-align:center;padding:10px;
+    }
+    .content{
+        width:1000px;margin-left:auto;margin-right: auto;
+    }
+    .box{
+        width:280px;padding:10px;margin:10px;background-color:white;
+        display:inline-block;vertical-align:top;
+        text-align: center;height:150px;line-height:30px;
+    }
+    .title{font-weight: bold}
+    /* 手機連結電腦不行，手機連結網頁行  */
+    @media screen and (max-width:600px){ 
+        .head{font-size: 24px;}    
+        .content{width:100%;text-align: content;} 
+     }
+    </style>
+</head>
+<body style="margin:0px;background-color:#eeeeee;">
+    <div class="head">自我介紹</div>
+    <!-- 父親寬度"content" -->
+    <div class="content">
+        <div class="box">
+            <div class="title">我的基本資料</div>
+            <div>男性</div>
+            <div>板橋</div>
+            <div>看妹</div>
+        </div>
+        <div class="box">
+            <div class="title">我的個人興趣</div>
+            <div>男性</div>
+            <div>板橋</div>
+            <div>看妹</div>
+        </div>
+        <div class="box">
+            <div class="title">歡迎與我連絡</div>
+            <div>男性</div>
+            <div>板橋</div>
+            <div>看妹</div>
+        </div>
+    
+    </div>
+</body>
+</html>

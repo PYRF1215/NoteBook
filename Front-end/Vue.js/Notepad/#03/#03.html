@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+知识点
+v-if
+v-for
+
+v-if：条件判断式，根据表达式的真伪进行页面处理。
+
+<p v-if="seen">快看我！</p>
+v-for：处理数组循环，将数据循环显示到页面上。
+
+<ol>
+  <li v-for="game in games">
+    {{ game.name }}
+  </li>
+</ol>
+综合例
+<div id="myApp">
+    <h3>游戏列表</h3>
+    <div v-if="seen">item</div>
+    <ol>
+        <li v-for="game in games">{{game.name}} / {{game.price}}元</li>
+    </ol>
+</div>
+<script>
+    var myApp = new Vue({
+        el: '#myApp',
+        data: {
+            seen: true,
+            games: [
+                {name:'A',price:400},
+                {name:'B',price:380},
+                {name:'C',price:99},
+            ],
+        },
+    });
+</script>
+    
+</body>
+</html>

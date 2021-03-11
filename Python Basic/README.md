@@ -1,6 +1,6 @@
 # 資料結構
 
-<h6>格式化函數</h6>
+<h6>格式化函數</h6> [Link](https://www.itread01.com/content/1548549397.html)
 <table>
 <thead>
 <tr>
@@ -20,6 +20,18 @@
 <td>3.14</td>
 <td>保留小數點後兩位</td>
 <tr>
+
+<tr>
+<td>1215</td>
+<td>{:<10d}</td>
+<td>1215</td>
+<td>
+<:左對齊 (寬度為10)<br>
+^:中
+</td>
+</tr>
+
+
 
 <tr align="center">
 <td colspan="4">Remarks</td></td>

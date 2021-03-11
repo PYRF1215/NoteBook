@@ -1,3 +1,33 @@
+<h6>#Colaborator,Colab：虛擬機器</h6>
+<ul>
+  <li>
+  <p>Colab簡介</p>
+  <ul>
+  <li>支援Python程式以及機器學習框.</li>
+  
+  <li>
+     提供免費的GPU，預裝機器學習常用的模組<br>
+     如：Pytorch、scikit-learn、pandas與Tensorflo.
+  </li>
+  
+
+  <li>
+     閒置一段時間後，虛擬機器會被停止並回收運算資源，
+     再重新連接會獲得全新的虛擬機器，之前存於Colab的資料會消失
+  </li>
+
+
+  <li>
+     提供GPU模式，大幅縮短機器學習程式運行時間，
+     新建筆記本未開啟GPU模式，執行編輯/筆記本設定.
+  </li>
+
+  </ul>
+  </li>
+
+</ul>
+
+
 <h6>#Colab常用的Linux指令</h6>
 <table>
 

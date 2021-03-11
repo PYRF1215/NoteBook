@@ -1,6 +1,6 @@
 # 資料結構
 
-<h6>格式化函數</h6> [Link](https://www.itread01.com/content/1548549397.html)
+<h6>格式化函數</h6> 
 <table>
 <thead>
 <tr>

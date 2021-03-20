@@ -5,7 +5,7 @@
   <li>
   <p><strong>爬蟲主題</strong></p>
   <ul>
-  <li><a href="https://github.com/PYRF1215/NoteBook/tree/master/Crawler/Topic" rel="nofollow">Topic</a></li>       
+  <li><a href="https://github.com/PYRF1215/NoteBook/tree/master/Python%20Basic/TQC%2B/PWA3(%E7%B6%B2%E9%A0%81%E8%B3%87%E6%96%99%E6%93%B7%E5%8F%96%E8%88%87%E5%88%86%E6%9E%90)/Crawler(%E5%AF%A6%E6%88%B0%E4%B8%BB%E9%A1%8C)/Topic" rel="nofollow">TOPIC</a></li>       
   </ul>
   </li>
   
@@ -14,7 +14,7 @@
   <li>
   <p><strong>參考資料</strong></p>
   <ul>
-  <li><a href="https://github.com/PYRF1215/NoteBook/tree/master/HTML">HTML Basic</a></li>
+  <li><a href="https://github.com/PYRF1215/NoteBook/tree/master/Front-end/HTML">HTML Basic</a></li>
   </ul>
   </li>
 

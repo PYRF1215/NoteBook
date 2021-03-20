@@ -1,6 +1,7 @@
 ◆資料結構與演算法：Data Structures and Algorithm，DSA 
 
 |演算法：具有通用性.
+|主管在意寫法是否有效率.
 |常見的資料結構：array, hash table, stack, queue, linked list, binary tree
 
 接下來一次選一個 tag 開始練習，一次選10題左右，我是用 array -> string -> math -> list -> tree 的順序開始，

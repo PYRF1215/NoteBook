@@ -1,4 +1,4 @@
-<B>◆、LinearRegression(線性迴歸)</B>：  
+<B>◆、LinearRegression(線性迴歸)：處理迴歸問題</B>：  
 波士頓房價預測,讀取sklearn.datasets中Boston的資料集(504筆資料，14個屬性).
 計算MAE,MSE,RMSE及房價預測 
 MAE: 3.7507  
@@ -12,7 +12,7 @@ PS.
 均方根誤差(root-mean-square error,RMSE)並進行房價預測。
 
 
-<B>◆、Logistic Regression(邏輯迴歸)</B>：  
+<B>◆、Logistic Regression(邏輯迴歸)：處理分類問題</B>：  
 鐵達尼號生存預測年齡、性別及準確度.  
 
 截距= [1.99663426]  
@@ -21,7 +21,8 @@ Confusion Matrix 準確度： 0.8149276
 
 
 
-<B>◆、DBSCAN(群聚演算法)</B>：  
+<B>◆、K-means Clustering(群聚演算法)：透過迭代方式尋找k個群集(Cluster)的一種劃分方案，
+使得群集結果對應的代價函數最小</B>：  
 手寫數字資料集讀取sklearn.datasets的(1797筆，每筆資料大小8x8 共64個數值徵欄位)，
 針對數值欄位標準、建立k-means模型進行分群、計算輪廓係數及準確率.
 
@@ -29,6 +30,7 @@ K-Mean (k-means++):Silhouette=0.1455
 K-Means (random):Silhouette=0.1448   
 K-Means (PCA-based):Silhouette=0.1388  
 Accuracy (分類準確率)=0.1085  
+
 
 
  
